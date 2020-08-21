@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Wojtek",
+      "subName": "Chmiel",
+      "email": "wwchmiel@wp.pl",
+      "password": "pass123word",
+      "token": "opjhg68f3yfuh07g8yi"
+    },
+    {
+      "name": "Kuba",
+      "subName": "Dolata",
+      "email": "jdolata5@gmail.com",
+      "password": "pass123word",
+      "token": "ojhoihpifwef"
+    },
+    {
+      "name": "Łukasz",
+      "subName": "Golata",
+      "email": "lgolata15@gmail.com",
+      "password": "pass123word",
+      "token": "921h30hi93h02h3"
+    },
+    {
+      "name": "1Łukasz",
+      "subName": "Golata",
+      "email": "1lgolata15@gmail.com",
+      "password": "pass123word",
+      "token": "ihoij23pgih23gpihpin"
+    }
+  ]
+}

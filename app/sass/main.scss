@@ -1,0 +1,15 @@
+// Global ----------------------------------
+@import "../../node_modules/normalize-scss/sass/normalize";
+@import "./base/variables";
+@import "./base/mixins";
+@import "./theme/theme";
+
+// Layout ----------------------------------
+@import "layout/header";
+@import "layout/button";
+@import "layout/input";
+
+// Components ------------------------------
+@import "components/flightGrid";
+@import "components/flightBox";
+@import "components/loginForm";

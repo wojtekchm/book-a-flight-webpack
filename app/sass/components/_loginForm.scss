@@ -1,0 +1,19 @@
+.loginForm {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $black;
+  z-index: 999;
+  transition: 0.5s;
+  form {
+    background-color: $gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+}
