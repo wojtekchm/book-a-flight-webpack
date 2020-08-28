@@ -1,0 +1,29 @@
+{
+  "bombardierq400": {
+    "pricing": {
+      "basePrice": "100",
+      "premium": "10",
+      "business": "3",
+      "economic": "1",
+      "extraLaugage": "30"
+    }
+  },
+  "boeing737": {
+    "pricing": {
+      "basePrice": "400",
+      "premium": "10",
+      "business": "3",
+      "economic": "1",
+      "extraLaugage": "60"
+    }
+  },
+  "boeing747": {
+    "pricing": {
+      "basePrice": "1500",
+      "premium": "10",
+      "business": "3",
+      "economic": "1",
+      "extraLaugage": "160"
+    }
+  }
+}

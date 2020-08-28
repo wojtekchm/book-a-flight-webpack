@@ -5,7 +5,8 @@
       "imgPath": "./img/radom.jpg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Radom",
-      "planeType": "Bombardier Q400",
+      "planeType": "bombardierq400",
+      "flightNumber": "Pozrad43323",
       "dates": [
         ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
         ["23.12.2020", "Środa", "14:00", "14:37"],
@@ -17,7 +18,8 @@
       "imgPath": "../img/bergamo.jpg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Bergamo",
-      "planeType": "Boeing 737",
+      "planeType": "boeing737",
+      "flightNumber": "Pozberg2314",
       "dates": [
         ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
         ["23.12.2020", "Środa", "14:00", "14:37"],
@@ -29,7 +31,8 @@
       "imgPath": "../img/nowyjork.jpg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Nowy Jork",
-      "planeType": "Boeing 737",
+      "planeType": "boeing747",
+      "flightNumber": "Pozny32124",
       "dates": [
         ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
         ["23.12.2020", "Środa", "14:00", "14:37"],
@@ -41,7 +44,8 @@
       "imgPath": "../img/katowice.jpg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Katowice",
-      "planeType": "Boeing 737",
+      "planeType": "boeing737",
+      "flightNumber": "Pozkat53423",
       "dates": [
         ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
         ["23.12.2020", "Środa", "14:00", "14:37"],

@@ -9,11 +9,12 @@ const createFlightBox = (
   backgroundImgSrc,
   outletCity,
   arrivalCity,
-  id
+  id,
+  planeType
 ) => {
   const flightBox = document.createElement("a");
   flightBox.classList.add("flightBox");
-  flightBox.href = `/flight/${id}`;
+  flightBox.href = `/flight?id=${id}&plane=${planeType}`;
 
   const backgroundImg = document.createElement("img");
   backgroundImg.classList.add("backgroundImg");
@@ -39,13 +40,20 @@ const createFlightBox = (
 
 if (flightListWrap) {
   flights.forEach((flight) => {
-    const { destinationOutlet, destinationArrival, imgPath, id } = flight;
+    const {
+      destinationOutlet,
+      destinationArrival,
+      imgPath,
+      id,
+      planeType,
+    } = flight;
     createFlightBox(
       flightListWrap,
       imgPath,
       destinationOutlet,
       destinationArrival,
-      id
+      id,
+      planeType
     );
   });
 }

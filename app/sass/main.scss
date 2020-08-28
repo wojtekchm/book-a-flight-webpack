@@ -8,8 +8,15 @@
 @import "layout/header";
 @import "layout/button";
 @import "layout/input";
+@import "layout/select";
+
 
 // Components ------------------------------
 @import "components/flightGrid";
 @import "components/flightBox";
 @import "components/loginForm";
+@import "components/flightForm";
+@import "components/plane";
+
+// Pages -----------------------------------
+@import 'pages/flightReservation'

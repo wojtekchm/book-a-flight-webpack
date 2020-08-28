@@ -1,0 +1,15 @@
+.flightReservation {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+
+  .planeWrap {
+    width: 80%;
+  }
+
+  .flightForm {
+    width: 20%;
+  }
+}

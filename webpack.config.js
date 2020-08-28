@@ -68,6 +68,10 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({ template: "./app/index.html" }),
+    new HtmlWebpackPlugin({
+      template: "./app/flight.html",
+      filename: "flight",
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new MiniCssExtractPlugin({
       filename: "[name].css",

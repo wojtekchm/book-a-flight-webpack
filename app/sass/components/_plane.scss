@@ -1,0 +1,25 @@
+.plane {
+  display: none;
+
+  #premium,
+  #business,
+  #economic {
+    g {
+
+      g {
+
+        &:hover,
+        &.active {
+
+          path {
+
+            fill: red !important;
+            cursor: pointer;
+
+          }
+        }
+      }
+    }
+
+  }
+}
