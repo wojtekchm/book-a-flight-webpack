@@ -15,9 +15,34 @@
       line-height: 40px;
     }
 
+    .planeName {
+      font-size: 12px;
+      font-weight: $regular;
+      margin-bottom: 20px;
+    }
+
     .flightId {
       font-size: 14px;
-      margin-bottom: 20px;
+      margin-bottom: 4px;
+    }
+  }
+
+  .resultPricing {
+    padding-top: 20px;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    .title {
+      font-weight: $bold;
+
+      font-size: 18px;
+
+      span {
+        font-weight: $regular;
+      }
     }
   }
 
@@ -43,10 +68,6 @@
       margin-bottom: 20px;
       border-bottom: 1px solid gray;
       padding-bottom: 20px;
-
-      &:nth-last-child(1) {
-        border: none;
-      }
 
       .title {
         font-size: 16px;

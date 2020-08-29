@@ -6,11 +6,27 @@
       "destinationOutlet": "Poznań",
       "destinationArrival": "Radom",
       "planeType": "bombardierq400",
+      "planeName": "Bombardier Q400",
       "flightNumber": "Pozrad43323",
       "dates": [
-        ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
-        ["23.12.2020", "Środa", "14:00", "14:37"],
-        ["31.12.2020", "Czwartek", "23:00", "23:37"]
+        {
+          "date": "31.08.2020",
+          "day": "Poniedziałek",
+          "arrivalHour": "13:00",
+          "outletHour": "13:37"
+        },
+        {
+          "date": "23.12.2020",
+          "day": "Środa",
+          "arrivalHour": "14:00",
+          "outletHour": "14:37"
+        },
+        {
+          "date": "31.12.2020",
+          "day": "Czwartek",
+          "arrivalHour": "23:00",
+          "outletHour": "123:37"
+        }
       ]
     },
     {
@@ -19,11 +35,27 @@
       "destinationOutlet": "Poznań",
       "destinationArrival": "Bergamo",
       "planeType": "boeing737",
+      "planeName": "Boeing 737",
       "flightNumber": "Pozberg2314",
       "dates": [
-        ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
-        ["23.12.2020", "Środa", "14:00", "14:37"],
-        ["31.12.2020", "Czwartek", "23:00", "23:37"]
+        {
+          "date": "31.10.2020",
+          "day": "Poniedziałek",
+          "arrivalHour": "13:00",
+          "outletHour": "14:37"
+        },
+        {
+          "date": "12.12.2020",
+          "day": "Środa",
+          "arrivalHour": "14:00",
+          "outletHour": "15:37"
+        },
+        {
+          "date": "31.12.2020",
+          "day": "Czwartek",
+          "arrivalHour": "21:00",
+          "outletHour": "23:37"
+        }
       ]
     },
     {
@@ -32,11 +64,27 @@
       "destinationOutlet": "Poznań",
       "destinationArrival": "Nowy Jork",
       "planeType": "boeing747",
+      "planeName": "Boeing 747",
       "flightNumber": "Pozny32124",
       "dates": [
-        ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
-        ["23.12.2020", "Środa", "14:00", "14:37"],
-        ["31.12.2020", "Czwartek", "23:00", "23:37"]
+        {
+          "date": "31.08.2020",
+          "day": "Poniedziałek",
+          "arrivalHour": "13:00",
+          "outletHour": "21:37"
+        },
+        {
+          "date": "23.12.2020",
+          "day": "Środa",
+          "arrivalHour": "14:00",
+          "outletHour": "23:37"
+        },
+        {
+          "date": "31.12.2020",
+          "day": "Czwartek",
+          "arrivalHour": "11:00",
+          "outletHour": "23:37"
+        }
       ]
     },
     {
@@ -44,12 +92,28 @@
       "imgPath": "../img/katowice.jpg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Katowice",
-      "planeType": "boeing737",
+      "planeType": "bombardierq400",
+      "planeName": "Bombardier Q400",
       "flightNumber": "Pozkat53423",
       "dates": [
-        ["31.08.2020", "Poniedziałek", "13:00", "13:37"],
-        ["23.12.2020", "Środa", "14:00", "14:37"],
-        ["31.12.2020", "Czwartek", "23:00", "23:37"]
+        {
+          "date": "31.08.2020",
+          "day": "Poniedziałek",
+          "arrivalHour": "13:00",
+          "outletHour": "13:37"
+        },
+        {
+          "date": "23.12.2020",
+          "day": "Środa",
+          "arrivalHour": "14:00",
+          "outletHour": "14:37"
+        },
+        {
+          "date": "31.12.2020",
+          "day": "Czwartek",
+          "arrivalHour": "23:00",
+          "outletHour": "123:37"
+        }
       ]
     }
   ]

@@ -853,24 +853,33 @@
       <div class="flightForm">
         <div class="flightInfo">
           <h2 id="destinations" class="destinations">
-            <span id="arrival">Poznań</span> -
-            <span id="outlet">Radom</span>
+            <span id="arrival"></span> -
+            <span id="outlet"></span>
           </p>
           <h3 class="flightId">
             Numer lotu:
-            <span id="flightId">12124124</span>
+            <span id="flightId"></span>
+          </h3>
+          <h3 class="planeName">
+            Model samolotu:
+            <span id="planeName"></span>
           </h3>
           <select name="flightDate" id="flightDate" class="flightDate">
-            <option disabled selected>Wybierz date</option>
+            <option disabled selected>Dostępne daty</option>
           </select>
         </div>
-        <div class="selectedPlacesWrap">
-          <p class="sectionTitle">Wybrane miejsca: </p>
+            <div class="selectedPlacesWrap">
+                <p class="sectionTitle">Wybrane miejsca: </p>
           <div id="selectedPlaces" class="selectedPlaces">
         
         </div>
         </div>
-        <a href="#" class="button second">Potwierdz rezerwacje</a>
+        <div id="resultPricing" class="resultPricing">
+            <p class="title">Ilość miejsc: <span id="resultSeatCount">8</span></p>
+
+            <p class="title">Łącznie do zapłaty: <span id="resultPrice">1234zł</span></p>
+        </div>
+        <a href="#" id="submitReservationBtn" class="button second disabled">Potwierdz rezerwacje</a>
       </div>
     </main>
 

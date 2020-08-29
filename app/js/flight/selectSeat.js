@@ -1,8 +1,11 @@
 import createSelectSeatInfo from "./createSelectSeatInfo";
+import resultsPricing from "./resultsPricing";
 
 let seatCounter = 0;
+const submitReservationBtn = document.getElementById("submitReservationBtn");
+const resultPricingWrap = document.getElementById("resultPricing");
 
-const selectSeat = (seat, selectedPlaces, planes, planeName) => {
+const selectSeat = (seat, selectedPlaces, planes, planeName, finalPrice) => {
   seat.addEventListener("click", () => {
     // Pobieranie informacji na temat miejsca z svg
     const row = seat.parentElement;
@@ -28,6 +31,7 @@ const selectSeat = (seat, selectedPlaces, planes, planeName) => {
       seat.classList.remove("active");
       selectSeatFlag = false;
       seatCounter--;
+      resultsPricing(finalPrice);
     } else {
       if (seatCounter < 9) {
         seatCounter++;
@@ -43,12 +47,22 @@ const selectSeat = (seat, selectedPlaces, planes, planeName) => {
           seatNumber,
           selectedPlaces,
           planes,
-          planeName
+          planeName,
+          finalPrice
         );
+        resultsPricing(finalPrice);
       } else {
         alert("Wybrano za dużo miejsc!");
       }
-      console.log(seatCounter);
+    }
+    if (seatCounter < 1) {
+      submitReservationBtn.classList.add("disabled");
+      resultPricingWrap.classList.remove("active");
+    } else {
+      submitReservationBtn.classList.remove("disabled");
+      resultPricingWrap.classList.add("active");
+      const resultSeatCountText = document.getElementById("resultSeatCount");
+      resultSeatCountText.textContent = seatCounter;
     }
   });
 };

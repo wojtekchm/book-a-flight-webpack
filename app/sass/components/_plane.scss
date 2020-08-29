@@ -1,6 +1,42 @@
 .plane {
   display: none;
 
+  #premium {
+    g {
+
+      g {
+
+        path {
+          fill: $black !important;
+        }
+      }
+    }
+  }
+
+  #business {
+    g {
+
+      g {
+
+        path {
+          fill: $blue !important;
+        }
+      }
+    }
+  }
+
+  #economic {
+    g {
+
+      g {
+
+        path {
+          fill: $skyBlue !important;
+        }
+      }
+    }
+  }
+
   #premium,
   #business,
   #economic {
@@ -8,14 +44,19 @@
 
       g {
 
-        &:hover,
+        &:hover {
+          path {
+            fill: $green !important;
+            cursor: pointer;
+          }
+        }
+
         &.active {
 
           path {
-
-            fill: red !important;
+            fill: #16a085 !important;
             cursor: pointer;
-
+            opacity: 0.8;
           }
         }
       }
