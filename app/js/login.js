@@ -3,6 +3,7 @@ import usersList from "./../data/users.json";
 const loginForm = document.querySelector("#loginForm form");
 const loginFormWrap = document.querySelector("#loginForm");
 const loggedUserName = document.getElementById("loggedUser");
+const loginAlert = document.getElementById("loginAlert");
 
 const { users } = usersList;
 
@@ -20,6 +21,8 @@ if (loginForm) {
         sessionStorage.setItem("token", token);
         loggedUserName.textContent = `${name} ${subName}`;
         loginCheck();
+      } else {
+        loginAlert.classList.add("active");
       }
     });
   });
@@ -48,6 +51,7 @@ const loginCheck = () => {
       }
     });
   } else {
+    loginAlert.classList.remove("active");
     loginFormWrap.style.display = "flex";
     setTimeout(() => {
       loginFormWrap.style.opacity = "1";

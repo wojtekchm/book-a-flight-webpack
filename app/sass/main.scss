@@ -6,6 +6,7 @@
 
 // Layout ----------------------------------
 @import "layout/header";
+@import "layout/footer";
 @import "layout/button";
 @import "layout/input";
 @import "layout/select";
@@ -17,6 +18,7 @@
 @import "components/loginForm";
 @import "components/flightForm";
 @import "components/plane";
+@import "components/legend";
 
 // Pages -----------------------------------
-@import 'pages/flightReservation'
+@import 'pages/flightReservation';

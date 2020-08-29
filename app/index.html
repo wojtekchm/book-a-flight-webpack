@@ -9,23 +9,14 @@
 
   <body>
     <header>
-      <div class="logo">Book a flight</div>
+      <a href="/" class="logo">Book a flight</a>
       <div class="user">
         <p id="loggedUser" class="name"></p>
         <a href="#" id="logoutBtn" class="button">Wyloguj</a>
       </div>
     </header>
     <main>
-      <div id="flightsList" class="flightGrid wrap">
-        <!-- <a href="#" class="flightBox">
-          <img src="./img/bergamo.jpg" alt="Bergamo" class="backgroundImg" />
-          <h2 class="flightPlaces">
-            <span class="outlet">Poznań</span>
-            -
-            <span class="arrival">Radom</span>
-          </h2>
-        </a> -->
-      </div>
+      <div id="flightsList" class="flightGrid wrap"></div>
     </main>
 
     <div id="loginForm" class="loginForm">
@@ -38,8 +29,12 @@
           <label for="password">Hasło</label>
           <input type="password" name="password" id="password" />
         </div>
-        <button class="button">Submit</button>
+        <p class="alert" id="loginAlert">Niepoprawny email lub hasło!</p>
+        <button class="button">Zaloguj</button>
       </form>
     </div>
+    <footer>
+      <p>CDV&copy;Wojtek Chmiel</p>
+    </footer>
   </body>
 </html>

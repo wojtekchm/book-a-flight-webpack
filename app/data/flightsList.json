@@ -2,7 +2,7 @@
   "flights": [
     {
       "id": "pozrad",
-      "imgPath": "./img/radom.jpg",
+      "imgPath": "/assets/img/radom2.jpeg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Radom",
       "planeType": "bombardierq400",
@@ -31,7 +31,7 @@
     },
     {
       "id": "pozberg",
-      "imgPath": "../img/bergamo.jpg",
+      "imgPath": "/assets/img/bergamo2.jpeg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Bergamo",
       "planeType": "boeing737",
@@ -60,7 +60,7 @@
     },
     {
       "id": "pozny",
-      "imgPath": "../img/nowyjork.jpg",
+      "imgPath": "/assets/img/newyork.jpeg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Nowy Jork",
       "planeType": "boeing747",
@@ -89,7 +89,7 @@
     },
     {
       "id": "pozkat",
-      "imgPath": "../img/katowice.jpg",
+      "imgPath": "assets/img/katowice2.jpeg",
       "destinationOutlet": "Poznań",
       "destinationArrival": "Katowice",
       "planeType": "bombardierq400",

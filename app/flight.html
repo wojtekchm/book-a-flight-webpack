@@ -9,13 +9,28 @@
 
   <body id="flightPage">
     <header>
-      <div class="logo">Book a flight</div>
-      <div class="user">
+        <a href="/" class="logo">Book a flight</a>
+            <div class="user">
         <p id="loggedUser" class="name"></p>
         <a href="#" id="logoutBtn" class="button">Wyloguj</a>
       </div>
     </header>
     <main class="flightReservation">
+
+        <div class="legend">
+            <div class="row">
+                <div class="seat economic"></div>
+                <p class="class">Klasa ekonomiczna</p>
+            </div>
+            <div class="row">
+                <div class="seat business"></div>
+                <p class="class">Klasa biznesowa</p>
+            </div>
+            <div class="row">
+                <div class="seat premium"></div>
+                <p class="class">Klasa premium</p>
+            </div>
+        </div>
 
 
       <div class="planeWrap">
@@ -893,8 +908,12 @@
           <label for="password">Hasło</label>
           <input type="password" name="password" id="password" />
         </div>
-        <button class="button">Submit</button>
+        <p class="alert" id="loginAlert">Niepoprawny email lub hasło!</p>
+        <button class="button">Zaloguj</button>
       </form>
     </div>
+    <footer>
+        <p>CDV&copy;Wojtek Chmiel</p>
+      </footer>
   </body>
 </html>

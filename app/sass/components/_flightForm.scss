@@ -55,7 +55,7 @@
 
 
     .selectedPlaces {
-      max-height: 50vh;
+      max-height: 43vh;
       overflow: auto;
     }
 
@@ -108,6 +108,93 @@
           margin-bottom: 0;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .flightForm {
+    padding: 30px;
+
+    .flightInfo {
+      padding-bottom: 20px;
+
+      .destinations {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+
+    .resultPricing {
+      padding-top: 20px;
+      display: none;
+
+      &.active {
+        display: block;
+      }
+
+      .title {
+        font-size: 14px;
+      }
+    }
+
+    .selectedPlacesWrap {
+      padding-top: 10px;
+
+
+      .selectedPlaces {
+        max-height: 43vh;
+        overflow: auto;
+      }
+
+      .sectionTitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+
+      .placeWrap {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+
+        .title {
+          font-size: 14px;
+        }
+
+        .discount {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        .laug {
+          margin-bottom: 10px;
+
+          label {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .flightForm {
+    .selectedPlacesWrap {
+      .selectedPlaces {
+        max-height: unset;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flightForm {
+    position: relative;
+    z-index: 2;
+    padding: 20px 25px;
+
+    .flightInfo {
+      padding-bottom: 10px;
     }
   }
 }

@@ -4,6 +4,8 @@ const { flights } = flightsList;
 
 const flightListWrap = document.getElementById("flightsList");
 
+const queryString = window.location.href;
+
 const createFlightBox = (
   parentElement,
   backgroundImgSrc,
@@ -15,10 +17,6 @@ const createFlightBox = (
   const flightBox = document.createElement("a");
   flightBox.classList.add("flightBox");
   flightBox.href = `/flight?id=${id}&plane=${planeType}`;
-
-  const backgroundImg = document.createElement("img");
-  backgroundImg.classList.add("backgroundImg");
-  backgroundImg.src = backgroundImgSrc;
 
   const flightPlaces = document.createElement("h2");
   flightPlaces.classList.add("flightPlaces");
@@ -34,7 +32,6 @@ const createFlightBox = (
   flightPlaces.textContent = `${outletCity} - ${arrivalCity}`;
 
   flightBox.appendChild(flightPlaces);
-  flightBox.appendChild(backgroundImg);
   parentElement.appendChild(flightBox);
 };
 
