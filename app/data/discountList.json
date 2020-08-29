@@ -1,0 +1,16 @@
+{
+  "discountList": [
+    {
+      "type": "Dziecko",
+      "discount": "0.5"
+    },
+    {
+      "type": "Dorosły",
+      "discount": "1"
+    },
+    {
+      "type": "Senior",
+      "discount": "0.8"
+    }
+  ]
+}
