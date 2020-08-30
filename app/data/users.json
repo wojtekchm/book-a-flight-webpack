@@ -1,17 +1,17 @@
 {
   "users": [
     {
-      "name": "Wojtek",
-      "subName": "Chmiel",
-      "email": "wwchmiel@wp.pl",
+      "name": "Jan",
+      "subName": "Kowalski",
+      "email": "jankowalski@wp.pl",
       "password": "pass123word",
       "token": "opjhg68f3yfuh07g8yi"
     },
     {
-      "name": "Kuba",
-      "subName": "Dolata",
-      "email": "jdolata5@gmail.com",
-      "password": "pass123word",
+      "name": "Jan",
+      "subName": "Nowak",
+      "email": "jannowak@gmail.com",
+      "password": "front123end",
       "token": "ojhoihpifwef"
     },
     {
